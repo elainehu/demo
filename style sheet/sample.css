@@ -1,0 +1,344 @@
+/* basic elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0px auto;
+    width: 760px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: 1.88889;
+    color: #736358;
+    background: url(../Images/butterflyani.gif) fixed right bottom no-repeat,url(../Images/backgroundbar_purple.png) left top repeat;
+    background:url(../Images/butterflyani.gif) fixed right bottom no-repeat,-moz-linear-gradient(center top, rgb(74, 6, 43) 25%, rgb(72, 33, 77)) 65%);
+    background:url(../Images/butterflyani.gif) fixed right bottom no-repeat,-webkit-gradient(linear, left top, left bottom, color-stop(0.25, rgb(74, 6, 43)), color-stop(0.65, rgb(72, 33, 77)));
+
+
+}
+ a:link {
+
+    text-decoration: none;
+    color: #8c46c2;
+    font-family: Times "Times New Roman";
+    font-weight: bold;
+}
+
+#supportingText #footer a:link
+{
+    color: #8c46c2;
+
+}
+
+
+#linkList a:hover, #linkList a:active {
+
+    text-decoration: underline;
+    color: #9685BA;
+    background: transparent url(../Images/list_logo_hover.png) scroll top left no-repeat;
+
+}
+a:hover, a:active
+{
+    text-decoration: underline;
+    color: #9685BA;
+}
+
+
+/* specific divs */
+#container {
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background:url(../Images/red-rose.png) 5% 11% no-repeat,
+url(../Images/butterfly_watching.png) rgb(252, 251, 230) 2% 75% no-repeat;
+}
+#preamble p, #supportingText p
+{
+    padding-bottom:15px;
+}
+/* under intro divs */
+#intro #quickSummary, #preamble {
+    width: 520px;
+    float: right;
+    margin: 20px 5px 0px 5px;
+    padding: 10px 10px;
+}
+
+/* pageHeader div*/
+#pageHeader {
+    width: 760px;
+    height: 220px;
+    background: url(../Images/header.gif) #fcfbe6 top left no-repeat;
+
+}
+
+#pageHeader h1, h2 {
+    display: none;
+}
+
+/* quickSummary div*/
+#quickSummary .p1 {
+
+    float:left;
+    color:#712559;
+    font-family: cursive, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.0em;
+    width:70%;
+}
+#quickSummary .p2
+{
+    float:right;
+    width:25%;
+    font-size:8pt;
+    font-weight: bold;
+    color: #ff4500;
+
+
+}
+
+/* preamble div */
+#preamble h3 span {
+    display: none;
+
+}
+
+#preamble h3 {
+    background: url(../Images/h3_preamble.gif) 0px 15px no-repeat;
+    width: 520px;
+    height: 47px;
+    border-top: 3px dotted #fcc85c;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 10px;
+
+
+}
+
+#preamble .p3 {
+    padding-bottom: 20px;
+}
+
+/*under supportingText div*/
+#supportingText {
+    width: 545px;
+    float: right;
+    margin-right: 5px;
+
+}
+
+/* explanation div*/
+#explanation {
+    margin: -5px auto;
+    padding: 5px 10px;
+}
+
+#explanation h3 span {
+    display: none;
+}
+
+#explanation h3 {
+    background: url(../Images/h3_explanation.gif) top left no-repeat;
+    width: 287px;
+    height: 28px;
+    padding-bottom: 10px;
+}
+
+#explanation .p2 {
+    padding-bottom: 20px;
+
+}
+
+/* participation div */
+#participation {
+    margin: 15px auto;
+    padding: 5px 10px;
+}
+
+#participation h3 span {
+    display: none;
+}
+
+#participation h3 {
+    background: url(../Images/h3_participation.gif) top left no-repeat;
+    width: 180px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+#participation .p3 {
+    padding-bottom: 20px;
+}
+
+/* benefits div */
+#benefits {
+    margin: 15px auto;
+    padding: 5px 10px;
+}
+
+#benefits h3 span {
+    display: none;
+}
+
+#benefits h3 {
+    background: url(../Images/h3_benefits.gif) top left no-repeat;
+    width: 120px;
+    height: 30px;
+}
+
+#benefits .p1 {
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+/* requirements div */
+#requirements {
+    margin: 15px auto;
+    padding: 5px 10px;
+
+}
+
+#requirements h3 span {
+    display: none;
+}
+
+#requirements h3 {
+    background: url(../Images/h3_requirements.gif) top left no-repeat;
+    width: 185px;
+    height: 32px;
+    padding-bottom: 10px;
+}
+
+#requirements .p5 {
+    border-bottom: 3px dotted #fcc85c;
+    -webkit-border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* footer div */
+#footer {
+
+    padding: 5px 0px 0px 15px;
+    background: url(../Images/butterfly_fly.png) 100% -10px  no-repeat;
+    height: 100px;
+    text-align: center;
+
+}
+
+
+
+/* under linkList div */
+#linkList {
+
+    width: 165px;
+    float: left;
+    margin-top: -410px;
+    margin-left:10px;
+    padding-top: 125px;
+	font: 0.9em verdana, sans-serif;
+	font-weight: bold
+
+}
+
+
+#linkList ul {
+
+    padding-left: 5px;
+    margin-bottom: 30px;
+
+}
+
+#linkList a.c
+{
+  background-image: none;
+  padding: 0;
+}
+
+#linkList ul li {
+    list-style-type: none;
+    line-height: 1.4em;
+    display: block;
+    padding-top: 15px;
+    width:160px;
+}
+
+#linkList ul li a{
+    background: transparent url(../Images/list_logo.png) scroll top left no-repeat;
+    padding: 0 0 5px 20px;
+
+}
+
+#lselect,#larchives, #lresources {
+    border: purple 2px solid;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #888888;
+    margin-bottom: 30px;
+}
+
+
+
+/* linkList .select */
+#linkList .select span {
+    display: none;
+}
+
+#linkList .select {
+    background: url(../Images/h3_select.png) top left no-repeat;
+    width: 140px;
+    height: 25px;
+    margin-top: 10px;
+
+}
+
+#larchives ul li, #lresources ul li{
+    line-height: 1.1em;
+}
+/* linkList .archives */
+#linkList .archives span {
+    display: none;
+}
+
+#linkList .archives {
+    background: url(../Images/h3_archives.png) top left no-repeat;
+    width: 76px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+/* linkList .resources */
+#linkList .resources span {
+    display: none;
+}
+
+#linkList .resources {
+    background: url(../Images/h3_resourcse.png) top left no-repeat;
+    width: 95px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.accesskey {
+    text-decoration: none;
+}
+
+#lselect [accesskey="a"], #lselect [accesskey="b"], #lselect [accesskey="c"], #lselect [accesskey="d"],
+#lselect [accesskey="e"], #lselect [accesskey="f"], #lselect [accesskey="g"], #lselect [accesskey="h"] {
+    color: orange;
+    font-weight: bolder;
+    display: block;
+}
