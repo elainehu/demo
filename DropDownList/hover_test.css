@@ -50,7 +50,7 @@ body
 
 .submenu2  li{
     background-color: #ffffe0;
-    text-decoration: none;
+    list-style: none;
     margin-left:160px;
     margin-top: -33px;
     width: 180px;
