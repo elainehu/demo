@@ -99,7 +99,7 @@ body
 
 .submenu table a:hover, .submenu2 li a:hover, .submenu3 table a:hover
 {
-    color:red;
+    color:#ff1493;
     cursor: pointer;
 	text-decoration: underline;
 }
