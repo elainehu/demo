@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width:85%;
+    margin:15px auto;
+    font-family: Times, sans-serif;
+    font-size: 14pt;
+    background-color: #000000;
+}
+.menu
+{   width: 160px;
+
+}
+.menu li
+{
+    background-color: #ffd700;
+    text-align: center;
+    list-style: none;
+    padding:10px;
+    text-align: center;
+    height: 25px;
+    width:150px;
+    display:block;
+    margin: 5px;
+}
+
+.menu:hover li{
+    cursor:pointer;
+}
+
+#first:hover ul.submenu{
+    display: block;
+}
+
+#second:hover ul.submenu2{
+    display: block;
+}
+#third:hover ul.submenu3{
+    display: block;
+}
+.menu ul.submenu, ul.submenu2, ul.submenu3
+{
+    display: none;
+
+}
+
+.submenu2  li{
+    background-color: #ffffe0;
+    text-decoration: none;
+    margin-left:160px;
+    margin-top: -33px;
+    width: 180px;
+    font-size: 12pt;
+    height: 25px;
+
+}
+
+.submenu table
+{
+    background-color: #ffffe0;
+    width: 310px;
+    font-size: 12pt;
+    overflow: hidden;
+    margin-left: 160px;
+    margin-top: -33px;
+
+
+}
+
+.submenu3 table{
+    background-color: #ffffe0;
+    width: 180px;
+    font-size: 12pt;
+    overflow: hidden;
+    display: block;
+    margin-left: 160px;
+    margin-top: -33px;
+}
+.submenu table a, .submenu2 li a, .submenu3 table a{
+    text-decoration: none;
+    color:black;
+}
+
+.submenu table tr td{
+    height: 35px;
+    padding-top:5px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+.submenu3 table tr td{
+    height: 30px;
+    padding-top:5px;
+    padding-left: 30px;
+}
+
+.submenu table a:hover, .submenu2 li a:hover, .submenu3 table a:hover
+{
+    color:red;
+    cursor: pointer;
+}
+
+
