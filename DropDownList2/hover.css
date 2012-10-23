@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:12pt;
+    font-family:Georgia, Times;
+    line-height: 1.5em;
+}
+
+li a {
+    text-decoration: none;
+    color: #00008b;
+}
+#submenu li:hover{
+    color: #ff4500;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+ul.mainmenu{
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left:30px;
+    line-height:1.2em;
+    padding-top: 3px;
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    font-size:10pt;
+    cursor:default;
+}
+
+ul.mainmenu span{
+    display: block;
+    font-size:12pt;
+    font-style:italic;
+}
+
+#submenu li {
+    list-style:none;
+    display: block;
+    width: 180px;
+    height: 40px;
+}
+
+
+ul#submenu{
+    width:160px;
+    font-size:10.5pt;
+    padding: 10px 20px 10px;
+    color: #00008b;
+    line-height:2.1em;
+    border-top:3px solid black;
+    border-bottom: #d3d3d3 1px solid;
+    border-left:#d3d3d3 1px solid;
+    border-right: #d3d3d3 1px solid;
+    margin-left:-10px;
+    display:none;
+}
+
+.mainmenu:hover > ul#submenu{
+    display:block;
+}
+
+
+ul.subsubmenu1, ul.subsubmenu2,ul.subsubmenu3,ul.subsubmenu4,ul.subsubmenu5,ul.subsubmenu6{
+    position: absolute;
+    left:230px;
+    top:65px;
+    width: 180px;
+    height: 260px;
+    display: none;
+    padding-left: 25px;
+    border-top:black 3px solid;
+    border-bottom: #d3d3d3 1px solid;
+    border-left:#d3d3d3 1px solid;
+    border-right: #d3d3d3 1px solid;
+    color: #00008b;
+}
+
+
+
+.subsubmenu1 li:first-child,.subsubmenu2 li:first-child,.subsubmenu3 li:first-child,.subsubmenu4 li:first-child,.subsubmenu5 li:first-child,
+.subsubmenu6 li:first-child{
+ color: #ff4500;
+ font-weight:bold;
+ margin-top:8px;
+
+}
+
+#first_item:hover ul.subsubmenu1,#second_item:hover ul.subsubmenu2,#third_item:hover ul.subsubmenu3,
+#fourth_item:hover ul.subsubmenu4,#fifth_item:hover ul.subsubmenu5,#sixth_item:hover ul.subsubmenu6
+{
+    display: block;
+
+}
+
+
