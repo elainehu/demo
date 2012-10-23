@@ -9,15 +9,11 @@ body
     margin:15px auto;
     font-family: Times, sans-serif;
     font-size: 14pt;
-    background-color: #000000;
 }
-.menu
-{   width: 160px;
 
-}
 .menu li
 {
-    background-color: #ffd700;
+    background-color: #008b8b;
     text-align: center;
     list-style: none;
     padding:10px;
@@ -25,83 +21,62 @@ body
     height: 25px;
     width:150px;
     display:block;
-    margin: 5px;
+    float: left;
+    color: white;
+    border-right: 1px #000000 solid;
 }
 
-.menu:hover li{
-    cursor:pointer;
-}
-
-#first:hover ul.submenu{
+.menu >li:hover ul {
     display: block;
 }
 
-#second:hover ul.submenu2{
-    display: block;
-}
-#third:hover ul.submenu3{
-    display: block;
-}
-.menu ul.submenu, ul.submenu2, ul.submenu3
+.menu ul.submenu
 {
     display: none;
-
 }
 
-.submenu2  li{
-    background-color: #ffffe0;
+.submenu  li{
+    background-color: #d3d3d3;
     list-style: none;
-    margin-left:160px;
-    margin-top: -33px;
     width: 180px;
     font-size: 12pt;
     height: 25px;
+    position: relative;
+    top:13px;
+    left: -11px;
 
 }
 
 .submenu table
 {
-    background-color: #ffffe0;
+    background-color: #d3d3d3;
     width: 310px;
     font-size: 12pt;
-    overflow: hidden;
-    margin-left: 160px;
-    margin-top: -33px;
-
-
+    position: relative;
+    top:13px;
+    left:-10px;
 }
 
-.submenu3 table{
-    background-color: #ffffe0;
-    width: 180px;
-    font-size: 12pt;
-    overflow: hidden;
-    display: block;
-    margin-left: 160px;
-    margin-top: -33px;
-}
-.submenu table a, .submenu2 li a, .submenu3 table a{
+
+.submenu table a, .submenu li a{
     text-decoration: none;
     color:black;
 }
 
 .submenu table tr td{
     height: 35px;
-    padding-top:5px;
-    padding-left: 30px;
-    padding-right: 5px;
-}
-.submenu3 table tr td{
-    height: 30px;
-    padding-top:5px;
-    padding-left: 30px;
+    padding: 10px;
 }
 
-.submenu table a:hover, .submenu2 li a:hover, .submenu3 table a:hover
+.submenu table a:hover, .submenu li a:hover
 {
     color:#ff1493;
     cursor: pointer;
-	text-decoration: underline;
+    text-decoration:underline;
+}
+
+.menu >li:hover{
+    background-color: green;
 }
 
 
