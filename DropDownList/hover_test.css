@@ -5,10 +5,16 @@
 }
 body
 {
-    width:85%;
+    width:100%;
     margin:15px auto;
     font-family: Times, sans-serif;
     font-size: 14pt;
+}
+
+.menu{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 540px;
 }
 
 .menu li
@@ -24,6 +30,7 @@ body
     float: left;
     color: white;
     border-right: 1px #000000 solid;
+	cursor:default;
 }
 
 .menu >li:hover ul {
