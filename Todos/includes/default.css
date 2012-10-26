@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: #EEE;
+    color: #333;
+    width: 520px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+#page_container{
+    width: 520px;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+h1{
+    text-align: center;
+    padding:40px 0 20px 0;
+    font-family: monospace, sans-serif;
+    font-size:38px;
+
+
+}
+#new_todo{
+    width:466px;
+    font-size:24px;
+    padding: 6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    margin: 15px 15px 40px 20px;
+}
+
+#modify{
+    font-size:20px;
+}
+
+input[placeholder]{
+    font-style: italic;
+}
+
+#modify{
+    width:466px;
+    height: 40px;
+}
+
+#page_container  li{
+    list-style: none;
+    margin: 8px 0px 0px 30px;
+    padding: 10px 0;
+    line-height: 1.5em;
+    font-size: 24px;;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#subcheckbox ul li{
+    font-size: 12pt;
+    color: gray;
+    margin-top:-20px;
+    border:none;
+
+}
+
+#footer{
+    height: 48px;
+    background: #20b2aa;
+    display: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -1px;
+
+}
+#footer p{
+    margin-left: 20px;
+    padding:10px 0;
+    color: white;
+}
+
+#removebutton{
+    float:right;
+    background: url(images/destroy.png) no-repeat;
+    margin-right:20px;
+    height:20px;
+    width: 20px;
+    cursor:pointer;
+    display: none;
+}
+
+
+#removebutton:hover{
+    background: url(images/destroy.png)  0 -20px no-repeat;
+}
+
+#page_container  li:hover #removebutton{
+    display: block;
+}
+
+#removeall{
+    float:right;
+    margin-right:10px;
+    width:160px;
+    font-size:10pt;
+    height:28px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#removeall:hover{
+    color: orange;
+    cursor:pointer;
+}
+.selected{
+    text-decoration: line-through;
+}
+#instructions {
+    margin: 15px auto;
+    color: #777;
+    text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+#credits {
+    margin: 20px auto;
+    color: #999;
+    text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+    text-align: center;
+}
